@@ -1,9 +1,9 @@
-namespace: wordpress
+namespace: devtest1namespace1
 secretGenerator:
 - name: mysql-pass
   literals:
   - password=donotguess
 resources:
-  - namespace.yaml
+  - devtest1namespace1.yaml
   - mysql-deployment.yaml
   - wordpress-deployment.yaml
